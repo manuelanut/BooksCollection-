@@ -1,0 +1,41 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+ 
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+   
+  }
+
+body.light {
+  background-image: url('assets/lg-bg.svg');
+  --text-color: black;
+  --background-alternative: white;
+}
+
+body.dark {
+  background-image: url('assets/dk-bg.svg');
+  --text-color: white;
+  --background-alternative: #46444f; 
+}
+
+button {
+  transition: background-color 0.2s, color 0.2s;
+}
+
+body.light button {
+  color: rgba(0, 0, 0, 0.915);
+  border-radius: 8px;
+}
+
+body.dark button {
+  color: white;
+  border-radius: 8px;
+}
+
+  

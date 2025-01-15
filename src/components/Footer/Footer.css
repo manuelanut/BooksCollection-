@@ -1,0 +1,28 @@
+.footer {
+    flex-shrink: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    background-color: var(--background-alternative); 
+    color: var(--text-color); 
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .footer a {
+    color: #00bcd4; 
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-content p {
+    margin: 5px 0;
+  }
+  
